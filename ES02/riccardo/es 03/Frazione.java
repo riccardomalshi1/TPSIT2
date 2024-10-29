@@ -1,12 +1,9 @@
 public class Frazione {
-    // Attributi
+    
     private int numeratore;
     private int denominatore;
     
-    // Costruttore
-    // utilizzo this per distinguere i parametri dagli attributi
-    // se non volessimo usare this, potremmo usare nomi diversi
-    // per i parametri, ad esempio num e den
+    
     public Frazione(int num, int den) {
         numeratore = num;
         denominatore = den;
@@ -14,7 +11,7 @@ public class Frazione {
     
     // Metodi
     public int getNumeratore() {
-        return numeratore;
+        return numeratore;                                                                                                                                                
     }
     
     public int getDenominatore() {
@@ -61,8 +58,8 @@ public class Frazione {
     }
     
     public static void main(String[] args) {
-        Frazione f1 = new Frazione(1, 2);
-        Frazione f2 = new Frazione(1, 3);
+        Frazione f1 = new Frazione(1, 6);
+        Frazione f2 = new Frazione(1, 7);
         System.out.println("f1 = " + f1);
         System.out.println("f2 = " + f2);
         System.out.println("f1 + f2 = " + f1.somma(f2));
