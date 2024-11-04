@@ -9,7 +9,7 @@ public class Stringa2 {
         System.out.println("Inserisci la seconda stringa:");
         String secondaStringa = scanner.nextLine();
         if (primaStringa.equalsIgnoreCase(secondaStringa)) {
-            System.out.println("Le due stringhe sono uguali (ignorando maiuscole/minuscole).");
+            System.out.println("Le due stringhe sono uguali.");
         } else {
             System.out.println("Le due stringhe sono diverse.");
         }
